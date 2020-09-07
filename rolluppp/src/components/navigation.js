@@ -19,21 +19,15 @@ function navigation({ description, lang, meta, title }) {
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="mr-auto" id="navparent">
-        <Nav.Link>
-            <Link id="nlink" to="/learn">Learn</Link>
-        </Nav.Link>
-        <Nav.Link>
-            <Link id="nlink" to="/tech">Tech</Link>
-        </Nav.Link>
-        <Nav.Link>
-            <Link id="nlink" to="/art">Art</Link>
-        </Nav.Link>
-        <Nav.Link>
-            <Link id="nlink" to="/about">About</Link>
-        </Nav.Link>
-        <Nav.Link>
-            <Link id="nlink" to="/contact">Contact</Link>
-        </Nav.Link>
+            <Nav.Link id="nlink" href="/learn">Learn</Nav.Link>
+        
+            <Nav.Link id="nlink" href="/tech">Tech</Nav.Link>
+        
+            <Nav.Link id="nlink" href="/art">Art</Nav.Link>
+        
+            <Nav.Link id="nlink" href="/about">About</Nav.Link>
+        
+            <Nav.Link id="nlink" href="/contact">Contact</Nav.Link>
     </Nav>
     </Navbar.Collapse>
     </Navbar>

@@ -12,7 +12,7 @@ export default function Learn({ data }) {
     <div className="content blog-posts">
       <Row className="centerContent" id="center">
         <ReactPlayer 
-          url='videos/learn_vid.MP4'
+          url='../videos/learn_vid.mp4'
           controls={true}
           />
       </Row>
